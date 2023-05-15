@@ -198,16 +198,21 @@ https://hlee77-capstone-4-text-img-classifier-xzr8hd.streamlit.app/
 ### Problems
 - Text-Image based classification was not implemented due to technical issue: an Ensemble classification model includes multiple models but with the same inputs. 
 - Many of eBay product images are uploaded by small business, so they are not professional and unclear. Clearer image data needed for better training.
-- Ambiguous product name cannot be correctly classified.
+- Ambiguous product title cannot be correctly classified.
 - Ambiguous Categories:  it is hard to distinguish the upper categories due to many lower categories of the same name. (such as pants under Apparel, Baby & Toddler, and Sporing Goods)
-- It is not a good structure to allow the model to learn, so it is necessary to either select categories requiring additional learning to change to a structure that is easy for the model to learn.
+
+###  Recommendations
+
+- Product naming need to represent the product for better classification. (With more description (such as brand, spec), text modeling will be more sophisticated.)
+- Clearer product images are recommended for better categorization and for better representation.
 
 
-### Next Steps & Recommendations
+### Next Steps
 
-More detailed categorization is needed and to do so, more data need to be obtained and trained.
-Other shopping mall data, such as Amazon, will be more useful to implement more detailed categorization. (eBay product title includes product name, brand, description, and spec. data has name with description, which is limited to describe all information of the product.)
-Product naming need to represent the product for better classification. (With more description (such as brand, spec), text modeling will be more sophisticated.)
+- It is expected to implement more detailed categorization including sub-categories is expected. In order to do so, more data and time is needed to be obtained and trained.
+- eBay product description is limited to product tile. The model can be improved a lot if more data such as brand, spec, or more details about products. 
+- So if the model is trained with other shopping mall data, such as Amazon, the model can be more powerful and sophisticated categorization model.
+
 
 
 #### Citations
