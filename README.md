@@ -2,7 +2,7 @@
 
 # Product Categorization Model
 
-### Text & Image Base Classification Model
+### Text & Image Based Classification Model
 
 ### Contents
 
