@@ -27,7 +27,7 @@ if page == 'Main':
 
 elif page == 'About':
     st.title('Why Proper Categorization is Important?')
-    st.write("About 60% of consumers use search engines to research the item before making a purchase. [link](https://www.google.com/search?q=DuplicateWidgetID&rlz=1C1RXQR_enUS1052US1052&oq=DuplicateWidgetID&aqs=chrome..69i57.1336j0j7&sourceid=chrome&ie=UTF-8)") 
+    st.write("About 60% of consumers use search engines to research the item before making a purchase. [link](https://www.thinkwithgoogle.com/marketing-strategies/search/global-shopper-product-research-statistics/)") 
     st.write("You can make your product show up not by only updating your product name and preparing your product listing, but also should categorize your products correctly.")
     # st.write("Product categorization is how a marketplace or ad platform put  your products into hierarchical categories.")
     st.write("Proper categorization plays an important role in how well your products are discoverable and how often you can reach out to right shoppers.")
